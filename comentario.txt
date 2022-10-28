@@ -1,3 +1,10 @@
 ondblclick="" : funcao que ao clicar 2x na div, executa algo
 
 const card = event.currentTarget; :o metodo currentTarget pega diretamento o objeto.
+
+(funções para impedir de capturar na hora do click)
+pointer-events: none;
+user-select: none;
+-webkit-use-select: none;
+-moz-user-select: none;
+
