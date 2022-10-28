@@ -1,0 +1,3 @@
+ondblclick="" : funcao que ao clicar 2x na div, executa algo
+
+const card = event.currentTarget; :o metodo currentTarget pega diretamento o objeto.
